@@ -264,7 +264,7 @@ function createSwimmingFish(id: number): SwimmingFish {
     species,
     pathData: SPECIES_PATHS[species],
     colors: [randomHexColor(), randomHexColor()],
-    size: randomBetween(64, 118),
+    size: randomBetween(45, 83),
     anchorX: randomBetween(0.02, 0.88),
     anchorY: randomBetween(0.08, 0.82),
     rangeX: randomBetween(0.04, 0.16),
