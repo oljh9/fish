@@ -205,7 +205,8 @@
 
 .colorChip {
   overflow: hidden;
-  min-height: 286px;
+  height: 200px;
+  min-height: 200px;
   border-radius: 26px;
   background: rgba(248, 252, 255, 0.92);
   box-shadow:
@@ -215,7 +216,7 @@
 
 .chipSwatch {
   position: relative;
-  min-height: 168px;
+  min-height: 110px;
   background: linear-gradient(135deg, var(--chip-start), var(--chip-end));
 }
 
@@ -226,7 +227,7 @@
   top: 10px;
   color: rgba(255, 255, 255, 0.18);
   font-family: 'IBM Plex Mono', 'SFMono-Regular', ui-monospace, monospace;
-  font-size: 2.8rem;
+  font-size: 2.1rem;
   font-weight: 700;
   line-height: 1;
 }
@@ -240,13 +241,13 @@
 
 .chipLabel {
   display: grid;
-  gap: 10px;
-  padding: 14px 14px 16px;
+  gap: 8px;
+  padding: 10px 12px 12px;
 }
 
 .chipSeries {
   color: #6b7b8e;
-  font-size: 0.68rem;
+  font-size: 0.62rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
@@ -254,7 +255,7 @@
 .chipCodeGrid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 12px;
+  gap: 10px;
 }
 
 .chipCodeBlock {
@@ -263,10 +264,10 @@
 
 .chipCodeLabel {
   display: block;
-  margin-bottom: 6px;
+  margin-bottom: 4px;
   color: #6b7b8e;
   font-family: 'IBM Plex Mono', 'SFMono-Regular', ui-monospace, monospace;
-  font-size: 0.7rem;
+  font-size: 0.62rem;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
@@ -275,17 +276,17 @@
   display: block;
   color: #10263f;
   font-family: 'IBM Plex Mono', 'SFMono-Regular', ui-monospace, monospace;
-  font-size: 0.92rem;
+  font-size: 0.78rem;
   line-height: 1.2;
   word-break: break-all;
 }
 
 .chipName {
   display: block;
-  margin-top: 6px;
+  margin-top: 4px;
   color: #334a63;
-  font-size: 0.88rem;
-  line-height: 1.35;
+  font-size: 0.76rem;
+  line-height: 1.25;
 }
 
 .copyButton,
@@ -369,10 +370,11 @@
   }
 
   .colorChip {
-    min-height: 304px;
+    height: 200px;
+    min-height: 200px;
   }
 
   .chipSwatch {
-    min-height: 182px;
+    min-height: 110px;
   }
 }
